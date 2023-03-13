@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import HomePage from "@Home";
 
-export default function Home() {
-  return (
-    <main>
-      <Heading>🐋Capstone Whales Template🐋</Heading>
-    </main>
-  );
-}
+const Home = () => {
+    return (
+        <>
+            <div className="__home">
+                 <HomePage />
+            </div>
+        </>
+    );
+};
 
-const Heading = styled.h1`
-text-align: center;
-`;
+export default Home;

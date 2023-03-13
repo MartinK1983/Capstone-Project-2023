@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* --- import by font face ---  */
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikRegular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikBold.otf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikLight.otf") format("truetype");
+  font-weight: lighter;
+  font-style: lighter;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikMedium.otf") format("truetype");
+  font-weight: medium;
+  font-style: medium;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikSemibold.otf") format("truetype");
+  font-weight: semibold;
+  font-style: semibold;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikSuper.otf") format("truetype");
+  font-weight: bolder;
+  font-style: bolder;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikSuper.otf") format("truetype");
+  font-weight: bolder;
+  font-style: bolder;
+}
+@font-face {
+  font-family: "Graphik";
+  src: url("/public/fonts/graphik/GraphikThin.otf") format("truetype");
+  font-weight: thin;
+  font-style: thin;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    @apply font-primary
+  }
+  .container{
+    @apply !w-full !px-[.75rem] mx-auto 2xl:!max-w-[1420px] xl:!max-w-[1200px] lg:!max-w-[992px] md:!max-w-[720px] sm:!max-w-[576px]
+  }
+}
