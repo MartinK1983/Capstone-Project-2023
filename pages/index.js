@@ -1,13 +1,12 @@
 import styled from "styled-components";
+import Places from "./places";
 
 export default function Home() {
-  return (
-    <main>
-      <Heading>🐋Capstone Whales Template🐋</Heading>
-    </main>
-  );
+    return (
+        <>
+            <h1>FreeDogGo</h1>
+            <Places />
+        </>
+    )
 }
 
-const Heading = styled.h1`
-text-align: center;
-`;

@@ -27,7 +27,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head />
-        <body>
+        <body style={{height: "100%", width: "100%"}}>
           <Main />
           <NextScript />
         </body>
