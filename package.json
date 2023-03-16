@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",ç
+    "lint": "next lint",
     "test": "jest --watchAll"
   },
   "dependencies": {
@@ -15,9 +15,7 @@
     "next": "13.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-hook-form": "^7.43.5",
-    "styled-components": "^5.3.8",
-    "use-local-storage-state": "^18.2.0"
+    "styled-components": "^5.3.8"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.1",
