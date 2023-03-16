@@ -3,7 +3,7 @@ import { applySchema } from "@/util/schema"
 import { useState } from "react"
 import Button from "../buttons/button";
 import Form from "../forms/form";
-import TextInput from "../forms/Textinput";
+//import TextInput from "../forms/Textinput";//
 
 export default function CreateOrUpdatePlaceForm({place = {}, saveData = null} = {}) {
 
@@ -42,10 +42,10 @@ export default function CreateOrUpdatePlaceForm({place = {}, saveData = null} = 
                 formVisible && (
                     <div>
                         <Form>
-                            <TextInput name="zipCode" label="Postleitzahl" onChange={handleInput} />
+                            {/* <TextInput name="zipCode" label="Postleitzahl" onChange={handleInput} />
                             <TextInput name="city" label="Stadt" onChange={handleInput} />
                             <TextInput name="street" label="Straße" onChange={handleInput} />
-                            <TextInput name="gps" label="GPS-Koordinaten" onChange={handleInput} />
+                            <TextInput name="gps" label="GPS-Koordinaten" onChange={handleInput} /> */}
                             <Button isSubmit onClick={updatePlace} loadingText="Wird gespeichert..." text="Speichern" />
                         </Form>
                     </div>
