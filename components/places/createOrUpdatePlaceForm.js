@@ -3,7 +3,7 @@ import { applySchema } from "@/util/schema"
 import { useState } from "react"
 import Button from "../buttons/button";
 import Form from "../forms/form";
-//import TextInput from "../forms/TextInput";//
+import TextInput from "../forms/TextInput";
 
 export default function CreateOrUpdatePlaceForm({place = {}, saveData = null} = {}) {
 
